@@ -1,0 +1,27 @@
+1. Python
+- Load CSV with pandas   done
+- Check missing/duplicate data done
+- Calculate total revenue  done
+- Calculate total units sold done
+- Find best-selling products  done
+- Find revenue by city done done
+- Create a few basic charts
+2. MySQL
+Import the cleaned data and practice queries like:
+- Total revenue
+- Revenue by city
+- Revenue by product
+- Average order value
+- Most popular products
+- Monthly revenue
+3. Power BI
+Build a small dashboard with:
+- Total Revenue
+- Total Orders
+- Units Sold
+- Average Order Value
+- Revenue by City
+- Revenue by Product
+- Revenue over time
+- Payment method breakdown
+- City/product slicers
