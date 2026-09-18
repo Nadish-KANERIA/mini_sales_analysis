@@ -30,3 +30,10 @@ Analyze a small sales dataset to find:
    ```bash
    
    pip install pandas matplotlib
+   ```
+
+## Charts
+
+![Revenue by Product](images/revenue-by-product.png)
+
+![Units Sold by Product](images/units-sold-by-product.png)
