@@ -37,3 +37,5 @@ Analyze a small sales dataset to find:
 ![Revenue by Product](images/revenue-by-product.png)
 
 ![Units Sold by Product](images/units-sold-by-product.png)
+
+![Revenue by City](images/revenue-by-city.svg)

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Revenue by City</title>
+  <desc id="desc">Bar chart showing Houston at 884.82 dollars, Katy at 579.87 dollars, and Sugar Land at 779.91 dollars.</desc>
+  <rect width="960" height="640" fill="white"/>
+  <text x="480" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="#222">Revenue by cities</text>
+  <g stroke="#d9d9d9" stroke-width="1">
+    <line x1="130" y1="490" x2="895" y2="490"/>
+    <line x1="130" y1="402" x2="895" y2="402"/>
+    <line x1="130" y1="314" x2="895" y2="314"/>
+    <line x1="130" y1="226" x2="895" y2="226"/>
+    <line x1="130" y1="138" x2="895" y2="138"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#444" text-anchor="end">
+    <text x="116" y="495">0</text>
+    <text x="116" y="407">250</text>
+    <text x="116" y="319">500</text>
+    <text x="116" y="231">750</text>
+    <text x="116" y="143">1,000</text>
+  </g>
+  <g fill="#2ca02c">
+    <rect x="205" y="178.5" width="150" height="311.5"/>
+    <rect x="438" y="285.8" width="150" height="204.2"/>
+    <rect x="671" y="215.5" width="150" height="274.5"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+    <text x="280" y="524">Houston</text>
+    <text x="513" y="524">Katy</text>
+    <text x="746" y="524">Sugar Land</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#1b5e20" text-anchor="middle" font-weight="600">
+    <text x="280" y="167">$884.82</text>
+    <text x="513" y="274">$579.87</text>
+    <text x="746" y="204">$779.91</text>
+  </g>
+  <g stroke="#222" stroke-width="1.5">
+    <line x1="130" y1="110" x2="130" y2="490"/>
+    <line x1="130" y1="490" x2="895" y2="490"/>
+  </g>
+  <text x="512" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#222">City</text>
+  <text x="35" y="300" transform="rotate(-90 35 300)" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#222">Revenue</text>
+</svg>
