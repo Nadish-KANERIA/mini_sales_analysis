@@ -66,6 +66,12 @@ mp.ylabel('Units Sold')
 mp.xlabel('Products')
 mp.title('Units Sold by Product')
 
+mp.figure()
+cities_to_revenue = df.groupby('city')['revenue'].sum()
+cities_to_revenue.plot(kind = 'bar', color = 'green')
+mp.title('Revenue by cities')
+mp.xlabel('City')
+mp.ylabel('Revenue')
 mp.show()
 
 
