@@ -74,6 +74,41 @@ mp.xlabel('City')
 mp.ylabel('Revenue')
 mp.show()
 
+mp.figure()
+mp.boxplot(df['revenue'], vert =False)
+mp.title('Outliers')
+mp.xlabel('$ US Dollar')
+mp.show()
+
+import numpy as np
+
+sorted_arr = np.sort(df['revenue'])
+q3 = np.percentile(df['revenue'], 75)
+q1 = np.percentile(df['revenue'], 25)
+iqr = q3 - q1
+boundary_fence = iqr*(1.5)
+lower_boundary = q1 - boundary_fence
+upper_boundary = q3 + boundary_fence
+
+outliers = df[
+    (df['revenue']<lower_boundary) | (df['revenue'] > upper_boundary)
+]
+print(outliers)
+
+average_revenue = df['revenue'].mean()
+average_revenue_per_product = df.groupby('product')['revenue'].mean()
+print(average_revenue_per_product)
+
+revenue_percentage = (product_revenue/revenue)*100
+print(revenue_percentage)
+
+mp.figure()
+revenue_percentage.plot(kind = 'bar', color = 'black')
+mp.title('Revenue contribution by Product')
+mp.ylabel('% Percentage')
+mp.show()
+
+
 
 
 
