@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+  <title id="title">Revenue outliers</title>
+  <desc id="desc">A horizontal box plot of revenue. The 379.98 dollar order is an outlier above the upper IQR fence.</desc>
+  <rect width="960" height="430" fill="white"/>
+  <text x="480" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="#222">Outliers</text>
+  <g stroke="#d9d9d9" stroke-width="1"><line x1="100" y1="310" x2="900" y2="310"/><line x1="100" y1="105" x2="100" y2="310"/><line x1="290" y1="105" x2="290" y2="310"/><line x1="480" y1="105" x2="480" y2="310"/><line x1="670" y1="105" x2="670" y2="310"/><line x1="860" y1="105" x2="860" y2="310"/></g>
+  <g stroke="#222" stroke-width="2" fill="none"><line x1="157" y1="205" x2="461" y2="205"/><line x1="157" y1="180" x2="157" y2="230"/><line x1="461" y1="180" x2="461" y2="230"/></g>
+  <rect x="200" y="155" width="247" height="100" fill="#1f77b4" fill-opacity=".75" stroke="#222" stroke-width="2"/><line x1="280" y1="155" x2="280" y2="255" stroke="#222" stroke-width="3"/><circle cx="822" cy="205" r="8" fill="white" stroke="#222" stroke-width="2"/>
+  <text x="822" y="177" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#222">$379.98</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#444" text-anchor="middle"><text x="100" y="340">$0</text><text x="290" y="340">$100</text><text x="480" y="340">$200</text><text x="670" y="340">$300</text><text x="860" y="340">$400</text></g><text x="480" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#222">$ US Dollar</text>
+</svg>

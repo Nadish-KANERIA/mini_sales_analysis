@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Revenue contribution by product</title>
+  <desc id="desc">Bar chart showing product percentage contributions to total revenue, led by Monitor at 42.32 percent.</desc>
+  <rect width="960" height="640" fill="white"/><text x="500" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="#222">Revenue contribution by Product</text>
+  <g stroke="#d9d9d9" stroke-width="1"><line x1="105" y1="500" x2="915" y2="500"/><line x1="105" y1="395" x2="915" y2="395"/><line x1="105" y1="290" x2="915" y2="290"/><line x1="105" y1="185" x2="915" y2="185"/><line x1="105" y1="80" x2="915" y2="80"/></g>
+  <g fill="#222"><rect x="135" y="336.3" width="84" height="163.7"/><rect x="265" y="415.8" width="84" height="84.2"/><rect x="395" y="55.6" width="84" height="444.4"/><rect x="525" y="401.8" width="84" height="98.2"/><rect x="655" y="303.5" width="84" height="196.5"/><rect x="785" y="436.9" width="84" height="63.1"/></g>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#444" text-anchor="end"><text x="92" y="505">0%</text><text x="92" y="400">10%</text><text x="92" y="295">20%</text><text x="92" y="190">30%</text><text x="92" y="85">40%</text></g>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#222" text-anchor="end"><text transform="translate(177 548) rotate(-35)">Keyboard</text><text transform="translate(307 548) rotate(-35)">Laptop Stand</text><text transform="translate(437 548) rotate(-35)">Monitor</text><text transform="translate(567 548) rotate(-35)">USB-C Hub</text><text transform="translate(697 548) rotate(-35)">Webcam</text><text transform="translate(827 548) rotate(-35)">Wireless Mouse</text></g>
+  <text x="30" y="295" transform="rotate(-90 30 295)" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#222">% Percentage</text>
+</svg>
