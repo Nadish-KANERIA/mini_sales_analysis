@@ -49,7 +49,37 @@ A beginner-friendly Python project that explores a small sales dataset with pand
 ## Files
 
 - `Project.py` - performs the analysis and creates the charts.
+- `SQL.py` - runs SQLite queries against the local sales database.
 - `mini_sales_project.csv` - source sales data.
+- `mini_sales_project.db` - SQLite database containing the sales table.
+
+## SQLite Query Findings
+
+The SQLite database contains **20 sales records**. The following results come from the queries in `SQL.py`.
+
+### Sales Records by Category
+
+| Category | Sales records |
+| --- | ---: |
+| Accessories | 13 |
+| Electronics | 7 |
+
+### Average Revenue by City
+
+| City | Average revenue |
+| --- | ---: |
+| Sugar Land | $129.99 |
+| Houston | $126.40 |
+| Katy | $82.84 |
+
+### Revenue by Category
+
+| Category | Total revenue |
+| --- | ---: |
+| Electronics | $1,369.88 |
+| Accessories | $874.72 |
+
+Electronics generated the most revenue despite having fewer sales records than Accessories.
 
 ## Libraries Required
 
@@ -57,6 +87,7 @@ A beginner-friendly Python project that explores a small sales dataset with pand
 - pandas
 - NumPy
 - matplotlib
+- sqlite3 (included with standard Python)
 
 Install the Python libraries with:
 
@@ -68,6 +99,12 @@ Then run:
 
 ```bash
 python Project.py
+```
+
+To run the SQLite queries:
+
+```bash
+python SQL.py
 ```
 
 ## Charts
